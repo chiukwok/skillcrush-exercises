@@ -1,0 +1,179 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+head {
+}
+
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+
+#about,#work,#contact {
+    height: 600px;
+}
+
+/***** HEADER SECTION *****/
+header {
+    height: 800px;
+    background: url(../img/full-background.png);
+    background-size: cover;
+}
+
+header h1 {
+    color: #bbc085;
+    font-family: 'Lora',serif;
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora',serif;
+    font-size: 72px;
+    line-height: 60pt;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+
+header h2 span {
+    color: ;
+}
+
+/***** ABOUT SECTION *****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora',serif;
+    font-size: 36px;
+    color: #2b2b2b;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/***** WORK SECTION *****/
+#work {
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora',serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+/***** CONTACT SECTION *****/
+#contact {
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact-img {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 18px;
+}
+
+#contact h2,#contact #email-header,#contact #socialmedia-header,#contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora',serif;
+    font-size: 36px;
+}
+
+#contact #email-header {
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px;
+}
+
+#contact #socialmedia-header {
+    font-weight: 700;
+    font-size: 29px;
+    margin: 40px 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
